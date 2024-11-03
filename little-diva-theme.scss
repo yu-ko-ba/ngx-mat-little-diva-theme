@@ -1,5 +1,5 @@
-@use 'light';
-@use 'dark';
+@use 'themes/light';
+@use 'themes/dark';
 
 $light: light.$light-theme;
 $dark: dark.$dark-theme;
