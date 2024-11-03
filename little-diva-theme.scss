@@ -1,5 +1,20 @@
+@use '@angular/material' as mat;
+
 @use 'themes/light';
 @use 'themes/dark';
 
+@include mat.core();
+
 $light: light.$light-theme;
 $dark: dark.$dark-theme;
+
+:root {
+  @include mat.all-component-themes($light);
+}
+
+// dark mode
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include mat.all-component-themes($dark);
+  }
+}

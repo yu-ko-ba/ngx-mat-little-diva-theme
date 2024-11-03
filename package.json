@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/yu-ko-ba/ngx-mat-little-diva-theme/issues"
   },
-  "homepage": "https://github.com/yu-ko-ba/ngx-mat-little-diva-theme#readme"
+  "homepage": "https://github.com/yu-ko-ba/ngx-mat-little-diva-theme#readme",
+  "dependencies": {
+    "@angular/material": "^18.2.11"
+  }
 }
