@@ -8,25 +8,10 @@
 
 // Note: Color palettes are generated from primary: #5881C1
 
-// 元々使ってた組み合わせ
-// $_background-color: #bbdefb;
-// $_button-color: #1565c0;
-
 $_background-color: color.scale(#bbdefb, $lightness: 40%);
-// $_background-color: color.scale(#CADBFD, $lightness: 40%);
-// $_background-color: #CADBFD;
-// $_background-color: #99ccff;
-// $_background-color: lightskyblue;
-// $_background-color: #ccffff;
-// $_background-color: #66ccff;
-// $_background-color: color.scale(aliceblue, $lightness: 50%);
-// $_background-color: white;
 
 $_ruriiro: #1e50a2;
-// $_button-color: #5881c1;
 $_button-color: $_ruriiro;
-// $_button-color: #19448e;
-// $_button-color: #0066ff;
 
 $_palettes: (
   primary: (
