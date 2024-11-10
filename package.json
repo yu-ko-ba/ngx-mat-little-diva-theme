@@ -4,7 +4,7 @@
   "description": "This library is theme of little diva.",
   "scripts": {
     "build": "tsc -p tsconfig.schematics.json",
-    "postbuild": ""
+    "postbuild": "copyfiles ./little-diva-theme.scss ./themes/* ./package.json schematics/*/schema.json schematics/*/files/** schematics/collection.json ./LICENSE ./README.md ./dist/ngx-mat-little-diva-theme/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/yu-ko-ba/ngx-mat-little-diva-theme#readme",
   "schematics": "./schematics/collection.json",
   "ng-add": {
-    "save": "devDependencies"
+    "save": "dependencies"
   },
   "dependencies": {
     "@angular/material": "^18.2.12"
