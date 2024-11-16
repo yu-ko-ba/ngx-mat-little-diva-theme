@@ -12,5 +12,5 @@ The CLI configures your application to apply this theme with the following actio
     * Removes `@angular/material/prebuilt-themes/*` from `styles`
 
 ## Screenshots
-<img width="400" src="https://github.com/user-attachments/assets/5bc7aa95-0a6a-49a5-85fe-5d4140e480d6" />
-<img width="400" src="https://github.com/user-attachments/assets/b5a6bda4-0d7b-4528-a93c-344bbebaf171" />
+<img width="300" src="https://github.com/user-attachments/assets/5bc7aa95-0a6a-49a5-85fe-5d4140e480d6" />
+<img width="300" src="https://github.com/user-attachments/assets/b5a6bda4-0d7b-4528-a93c-344bbebaf171" />
