@@ -17,7 +17,7 @@ export function applyLittleDivaTheme(tree: Tree): Tree {
     angularJson.projects[projectName].architect.build.options.styles || [];
 
   const littleDivaTheme =
-    "@yu-ko-ba/ngx-mat-little-diva-theme/little-diva-theme.scss";
+    "@yu-ko-ba/ngx-mat-little-diva-theme/little-diva-theme.css";
 
   const rc = new RegExp("^@angular/material/prebuilt-themes/");
 

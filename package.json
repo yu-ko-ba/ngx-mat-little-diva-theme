@@ -3,8 +3,8 @@
   "version": "0.0.3",
   "description": "This library is theme of little diva.",
   "scripts": {
-    "build": "tsc -p tsconfig.schematics.json",
-    "postbuild": "copyfiles ./little-diva-theme.scss ./themes/* ./package.json schematics/*/schema.json schematics/*/files/** schematics/collection.json ./LICENSE ./README.md ./dist/ngx-mat-little-diva-theme/"
+    "build": "tsc -p tsconfig.schematics.json && sass -I ./node_modules/ ./little-diva-theme.scss ./dist/ngx-mat-little-diva-theme/little-diva-theme.css",
+    "postbuild": "copyfiles ./package.json schematics/*/schema.json schematics/*/files/** schematics/collection.json ./LICENSE ./README.md ./dist/ngx-mat-little-diva-theme/"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "@types/jasmine": "^5.1.4",
     "@types/node": "^22.9.0",
     "copyfiles": "^2.4.1",
+    "sass": "^1.81.0",
     "typescript": "^5.6.3"
   }
 }
