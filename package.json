@@ -1,6 +1,6 @@
 {
   "name": "@yu-ko-ba/ngx-mat-little-diva-theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This library is theme of little diva.",
   "scripts": {
     "build": "tsc -p tsconfig.schematics.json && sass -I ./node_modules/ ./little-diva-theme.scss ./dist/ngx-mat-little-diva-theme/little-diva-theme.css",
