@@ -1,20 +1,33 @@
-@use '@angular/material' as mat;
+@use '@angular/material/core/tokens/m3-system';
 
 @use 'themes/light';
 @use 'themes/dark';
 
-@include mat.core();
-
-$light: light.$light-theme;
-$dark: dark.$dark-theme;
-
-:root {
-  @include mat.all-component-themes($light);
+html {
+  color-scheme: light;
+  @include m3-system.theme((
+  color: (
+    theme-type: light,
+    primary: light.$primary,
+    tertiary: light.$tertiary,
+  ),
+  typography: Roboto,
+  density: 0,
+  ));
 }
 
 // dark mode
 @media (prefers-color-scheme: dark) {
-  :root {
-    @include mat.all-component-themes($dark);
+  html {
+    color-scheme: dark;
+    @include m3-system.theme((
+    color: (
+      theme-type: dark,
+      primary: dark.$primary,
+      tertiary: dark.$tertiary,
+    ),
+    typography: Roboto,
+    density: 0,
+    ));
   }
 }
